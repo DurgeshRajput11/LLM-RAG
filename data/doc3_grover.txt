@@ -1,0 +1,10 @@
+Title: Grover's Algorithm
+
+Grover's algorithm was developed by Lov Grover in 1996.
+It is a quantum algorithm used for searching unsorted databases.
+
+The algorithm provides a quadratic speedup compared to classical search algorithms.
+While classical search requires O(n) time, Grover's algorithm works in O(sqrt(n)) time.
+
+Grover's algorithm is useful in optimization and search problems.
+It is one of the key examples of quantum advantage.

@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Who proposed quantum computing?",
+    "answer": "Richard Feynman proposed the concept of quantum computing in 1982."
+  },
+  {
+    "question": "What is Shor's algorithm?",
+    "answer": "Shor's algorithm is a quantum algorithm introduced by Peter Shor in 1994 for factoring large integers efficiently."
+  },
+  {
+    "question": "What is Grover's algorithm used for?",
+    "answer": "Grover's algorithm is used for searching unsorted databases and provides a quadratic speedup."
+  },
+  {
+    "question": "What is superposition?",
+    "answer": "Superposition allows a qubit to exist in multiple states simultaneously."
+  },
+  {
+    "question": "What is entanglement?",
+    "answer": "Entanglement is a phenomenon where qubits become linked and affect each other instantly."
+  },
+  {
+    "question": "When was Shor's algorithm introduced?",
+    "answer": "Shor's algorithm was introduced in 1994 by Peter Shor."
+  },
+  {
+    "question": "What is the advantage of Grover's algorithm?",
+    "answer": "Grover's algorithm provides a quadratic speedup compared to classical search algorithms."
+  }
+]

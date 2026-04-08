@@ -1,0 +1,11 @@
+Title: Timeline of Quantum Computing
+
+In 1982, Richard Feynman proposed the idea of quantum computing.
+In 1994, Peter Shor introduced Shor's algorithm for factoring integers.
+
+In 1996, Lov Grover developed Grover's algorithm for database search.
+
+These milestones marked the early development of quantum computing.
+
+Over time, research expanded into building quantum hardware and improving algorithms.
+Quantum computing continues to evolve as a promising field in computer science.

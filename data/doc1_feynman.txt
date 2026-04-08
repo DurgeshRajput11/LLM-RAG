@@ -1,0 +1,10 @@
+Title: Feynman Proposal
+
+Richard Feynman proposed the concept of quantum computing in 1982 during a conference at MIT.
+He argued that classical computers cannot efficiently simulate quantum systems due to exponential complexity.
+
+Feynman suggested that quantum systems should be simulated using quantum machines.
+This idea laid the foundation for quantum computing.
+
+He emphasized that quantum mechanics allows new computational possibilities through superposition and entanglement.
+Feynman's proposal is considered the starting point of quantum computing research.

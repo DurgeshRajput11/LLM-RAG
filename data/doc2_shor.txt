@@ -1,0 +1,10 @@
+Title: Shor's Algorithm
+
+Shor's algorithm was introduced by Peter Shor in 1994.
+It is a quantum algorithm that efficiently factors large integers.
+
+The algorithm runs exponentially faster than the best known classical algorithms for factoring.
+This has major implications for cryptography, especially RSA encryption.
+
+Shor's algorithm demonstrated that quantum computers could solve real-world problems more efficiently than classical computers.
+It is one of the most important breakthroughs in quantum computing.

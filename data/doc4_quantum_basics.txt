@@ -1,0 +1,11 @@
+Title: Quantum Computing Basics
+
+Quantum computing is based on principles of quantum mechanics such as superposition and entanglement.
+
+Superposition allows a quantum bit, or qubit, to exist in multiple states simultaneously.
+Unlike classical bits, which are either 0 or 1, qubits can be both at the same time.
+
+Entanglement is a phenomenon where two qubits become linked and the state of one affects the other instantly.
+These properties allow quantum computers to perform complex computations efficiently.
+
+Quantum computing differs fundamentally from classical computing in how information is processed.
