@@ -3,7 +3,7 @@ from src.rag_pipeline import QuantumRAGPipeline
 
 def run_cli():
     print("=" * 60)
-    print("🔍 Quantum RAG System (Local, Hybrid Retrieval)")
+    print(" Quantum RAG System (Local, Hybrid Retrieval)")
     print("Type 'exit' to quit")
     print("=" * 60)
 
@@ -14,7 +14,7 @@ def run_cli():
         query = input("\nAsk: ").strip()
 
         if query.lower() in ["exit", "quit"]:
-            print("👋 Exiting...")
+            print(" Exiting...")
             break
 
         if not query:
@@ -22,10 +22,10 @@ def run_cli():
 
         response = rag.generate(query)
 
-        print("\n🤖 Answer:")
+        print("\n Answer:")
         print(response.answer)
 
-        print("\n📎 Retrieved Contexts:")
+        print("\n Retrieved Contexts:")
         for i, rc in enumerate(response.retrieved_chunks, 1):
             print(f"\n--- Context {i} ---")
             print(f"Doc: {rc.chunk.doc_id}")
