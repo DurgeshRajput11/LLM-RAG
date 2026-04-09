@@ -1,6 +1,5 @@
 from src.rag_pipeline import QuantumRAGPipeline
 
-
 def run_cli():
     print("=" * 60)
     print(" Quantum RAG System (Local, Hybrid Retrieval)")
