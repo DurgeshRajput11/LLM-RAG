@@ -2,20 +2,16 @@ import numpy as np
 from abc import ABC, abstractmethod
 from typing import List
 
-# Try SBERT (primary)
+
 try:
     from sentence_transformers import SentenceTransformer
     SBERT_AVAILABLE = True
 except:
     SBERT_AVAILABLE = False
 
-# Fallback
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-# ─────────────────────────────────────────────
-# BASE CLASS
-# ─────────────────────────────────────────────
 
 class BaseEmbedder(ABC):
 
@@ -27,10 +23,6 @@ class BaseEmbedder(ABC):
     def get_dimension(self) -> int:
         pass
 
-
-# ─────────────────────────────────────────────
-# SBERT EMBEDDER (PRIMARY)
-# ─────────────────────────────────────────────
 
 class SBERTEmbedder(BaseEmbedder):
 
@@ -50,10 +42,6 @@ class SBERTEmbedder(BaseEmbedder):
     def get_dimension(self) -> int:
         return self.dim
 
-
-# ─────────────────────────────────────────────
-# TF-IDF EMBEDDER (FALLBACK)
-# ─────────────────────────────────────────────
 
 class TfidfEmbedder(BaseEmbedder):
 
@@ -79,9 +67,6 @@ class TfidfEmbedder(BaseEmbedder):
         return len(self.vectorizer.get_feature_names_out())
 
 
-# ─────────────────────────────────────────────
-# FACTORY FUNCTION
-# ─────────────────────────────────────────────
 
 def get_embedder(prefer_sbert=True) -> BaseEmbedder:
     """
